@@ -1,0 +1,19 @@
+<h2> About </h2>
+<table style="width:100%;">
+{{#each model as |bookmark|}}
+<tr>
+	<td style="width:30%;border:1px solid;">
+		{{#link-to 'bookmarks.edit' bookmark}}
+			Edit Bookmark 
+		{{/link-to}}
+	</td>
+	<td style="border: 1px solid black;">
+		{{#if bookmark.public}}
+			{{bookmark-listing bookmark=bookmark}}
+		{{else}}
+			<article>Not public bookmark</article>
+		{{/if}}
+	</td>
+</tr>
+{{/each}}
+</table>
