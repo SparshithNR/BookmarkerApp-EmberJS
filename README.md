@@ -5,7 +5,7 @@ This is an application built while learning EmberJS.
 
 You can use this application to store bookmarks. But this will store the data till the Tab is open. This is just a sample application.
 
-This application uses Mirage to mock server APIs. Mirage serves us the with dummy data to work with.
+This application uses Mirage to mock server APIs. Mirage serves us with dummy data to work.
 
 ## Prerequisites
 
